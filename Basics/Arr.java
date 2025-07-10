@@ -11,8 +11,8 @@ public class Arr{
             arr[i] = sc.nextInt();
         }
         System.err.println("Entered numbers are : ");
-        for(int num : arr){
-            System.out.println(num + "");
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i] + " ");
         }
     }
 }
